@@ -7,11 +7,11 @@ const Message = ({isInfo, className, children}) => {
     classes += isInfo ? ' is-info' : '';
     return(
         <article className={classes}>
-            <div class="message-header">
+            <div className="message-header">
                 <p>Hello World</p>
-                <button class="delete" aria-label="delete"></button>
+                <button className="delete" aria-label="delete"></button>
             </div>
-            <div class="message-body">
+            <div className="message-body">
                 {children}
             </div>
         </article>

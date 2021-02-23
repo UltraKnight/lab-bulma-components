@@ -1,5 +1,6 @@
 import React from 'react';
-import 'bulma/css/bulma.css';
+// import 'bulma/css/bulma.css';
+import './Container.css';
 
 const Container = (props) => {
     return(

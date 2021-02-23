@@ -1,5 +1,7 @@
 import React from 'react';
-import 'bulma/css/bulma.css';
+// import 'bulma/css/bulma.css';
+import './CoolButton.css';
+import PropTypes from 'prop-types';
 
 const CoolButton = ({children, isPrimary, isSuccess, isDanger, isSmall, isInfo, className}) => {
     let classes = className || '';
@@ -19,3 +21,11 @@ const CoolButton = ({children, isPrimary, isSuccess, isDanger, isSmall, isInfo, 
 }
 
 export default CoolButton;
+
+CoolButton.propTypes = {
+    isPrimary: PropTypes.bool,
+    isSuccess: PropTypes.bool,
+    isDanger: PropTypes.bool,
+    isSmall: PropTypes.bool,
+    isInfo: PropTypes.bool
+};

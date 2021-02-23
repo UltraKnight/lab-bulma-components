@@ -1,8 +1,8 @@
 import React from 'react';
-import NavBar from '../navbar/Navbar';
+import NavBar from '../navbar/NavBar';
 import FormField from '../formField/FormField';
 import CoolButton from '../coolButton/CoolButton';
-import 'bulma/css/bulma.css';
+// import 'bulma/css/bulma.css';
 import './SignUp.css';
 
 const SignUp = () => {
