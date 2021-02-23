@@ -1,5 +1,6 @@
 import React from 'react'
 import './Message.css';
+import PropTypes from 'prop-types';
 
 const Message = ({isInfo, className, children}) => {
     let classes = className || '';
@@ -19,3 +20,8 @@ const Message = ({isInfo, className, children}) => {
 }
 
 export default Message;
+
+Message.propTypes = {
+    isInfo: PropTypes.bool,
+    className: PropTypes.string
+};

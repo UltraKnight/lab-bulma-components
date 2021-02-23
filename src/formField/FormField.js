@@ -1,6 +1,7 @@
 import React from 'react';
 // import 'bulma/css/bulma.css';
 import './FormField.css';
+import PropTypes from 'prop-types';
 
 function FormField({label, type, placeholder}) {
     return (
@@ -14,3 +15,9 @@ function FormField({label, type, placeholder}) {
 }
 
 export default FormField;
+
+FormField.propTypes = {
+    label: PropTypes.string,
+    type: PropTypes.string,
+    placeholder : PropTypes.string
+}

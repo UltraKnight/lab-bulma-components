@@ -28,5 +28,6 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './public/index.html'
     })
-  ]
+  ],
+  devtool: 'eval-source-map'
 };

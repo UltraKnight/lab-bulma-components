@@ -27,5 +27,6 @@ CoolButton.propTypes = {
     isSuccess: PropTypes.bool,
     isDanger: PropTypes.bool,
     isSmall: PropTypes.bool,
-    isInfo: PropTypes.bool
+    isInfo: PropTypes.bool,
+    className: PropTypes.string
 };
